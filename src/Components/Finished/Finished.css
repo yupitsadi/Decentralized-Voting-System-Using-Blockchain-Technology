@@ -1,0 +1,92 @@
+.finished-container {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f2;
+  justify-content: space-between;
+}
+
+.finished-left-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.finished-button {
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem 8rem;
+  border-radius: 0.3rem;
+  background-color: #f7b956;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.finished-button:hover {
+  background-color: #376890;
+}
+
+.result-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.candidates-table {
+  width: 70%;
+  border-spacing: 0 0.25em;
+  border-collapse: separate;
+}
+
+.candidate-table-title {
+  margin-bottom: 10px;
+}
+
+.candidate-title {
+  color: #fff;
+  padding: 10px 0;
+  font-size: large;
+  text-align: start;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f7b956;
+}
+
+.candidate-title:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.candidate-title:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.candidate-value {
+  color: white;
+  padding: 7.5px 0;
+  font-size: larger;
+  text-align: center;
+  background-color: #376890;
+}
+
+.candidate-value:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.candidate-value:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.finished-right-container {
+  width: 45%;
+  height: 100%;
+  background-size: contain;
+  background-image: url("../../assets/loginBg3.png");
+}
